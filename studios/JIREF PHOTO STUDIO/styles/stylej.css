@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 224);
+}
+/* index css */
+.showright{
+    width: 400px;
+    height: 500px;
+    float: right;
+    margin-right: 50px;
+}
+#canon{
+    width: 450px;
+    height: 400px;
+}
+/* .showleft{
+    width: 800px;
+    height: 500px;
+    float: left;
+    margin-left: 50px;
+    display: inline-flex;
+} */
+#photo{
+    width: 770px;
+    height: auto;
+    display: inline-flex;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(211,211,211);
+}
+.heada{
+    padding-top: 30px;
+    padding-left: 80px;
+  
+}
+h1{
+    font-size: 40px;
+    margin-top: -5px;
+    color:lightseagreen;
+}
+.jiref{
+    color: rgb(141, 60, 248);
+}
+
+.btn{
+    margin-right: 10px;
+}
+ /*Slide show styles code starts*/
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;
+}
+img {vertical-align: middle;}
+.slideshow-container {
+  max-width: 800px;
+  max-height: 700px;
+  position: relative;
+  margin: auto;
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+#simage{
+    width: 700px;
+    height: 600px;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.navbar-inverse{
+  position:sticky;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0s ease;
+}
+.active {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 15.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/*Slide show styles code ends*/
+
+
+
+/* login css */
+.jumbotron{
+margin-top: 30px;
+width: 400px;
+height: 400px;
+margin-left: 200px;
+padding-left: 30px;
+border-radius: 10px;
+float: left;
+}
+.jumbotron h1{
+    margin-left: 80px;
+    color: lightseagreen;
+}
+.jumbotron .btn{
+margin-left: 110px;
+width: 100px;
+background: rgb(211,211,211);
+color: lightseagreen;
+font-size: 18px;
+border: none;
+}
+.jumbotron #input{
+    width: 340px;
+    height: 10px;
+    padding: 15px 20px;
+}
+.cameraimage{
+    float: right;
+    width: 500px;
+    height: 480px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+#camera3{
+width: 600px;
+height: 430px;
+}
+#back{
+    color: lightseagreen;
+}
+/* register css */
+#jumboregist{
+    width: 420px;
+    height: 700px;
+    float: left;
+}
+#jumboregist h1{
+margin-left: 0px;
+}
+/* contact us css */
+.contactdiv{
+    width: 500px;
+    height: 450px;
+    margin-left: 100px;
+    float: left;
+    box-sizing: border-box;
+
+}
+#contactimage{
+    width:480px;
+    height: 400px;
+    
+}
+#contact{
+    width: 470px;
+    height: 400px;
+    float: right;
+    margin-right: 75px;
+    margin-top: 0px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+/* About css */
+.main{
+    width: 65%;
+    height: 340px;
+    background:rgb(175,238,238) ;
+    margin: auto;
+    margin-top: -80px;
+    margin-bottom: 30px;
+}
+.aboutus{
+    width: 64%;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+.aboutus h1{
+    font-size: 60px;
+    margin-left: 130px;
+    color: rgb(128,128,128);
+}
+.aboutus p{
+    font-size: 20px;
+}
+.jireftitle{
+    font-size: 30px;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    margin-bottom: -30px;
+    background: rgb(211,211,211);
+}
+footer p{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+/* wedding css */
+#weddingdiv{
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 400px;
+margin-bottom: 40px;
+}
+.leftside{
+    /* border: 1px solid red; */
+    width: 45%;
+    height: 390px;
+   float: left;
+}
+.rightside{
+    /* border: 1px solid red; */
+    width: 45%;
+    height: 390px;
+    float: right;
+}
+#wed2{
+width: 100%;
+height:400px ;
+}
+#wed{
+    width: 100%;
+    height:390px; 
+}
+/*  id photos css*/
+#idphoto{
+    width: 900px;
+    height: 900px;
+    border: 1px solid red;
+    /* padding: 10px; */
+}
+.top{
+    width: 860px;
+    height: 440px;
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+.bottom{
+    width: 860px;
+    height: 4400px;
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+.leftsidep{
+width: 400px;
+height: 400px;
+margin-right: 20px;
+border: 1px solid red;
+}
+.rightsidep{
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+}
+#idp{
+    /* width: 380px */
+    /* height: 380px; */
+}
